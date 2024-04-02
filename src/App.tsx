@@ -28,7 +28,13 @@ function App() {
         <button onClick={onClickPrint}>
           <span className="material-symbols-outlined">print</span>
         </button>
-        <p></p>
+        <p>
+          This Above print functionality is not working with{" "}
+          <span style={{ fontWeight: "bold" }}>
+            Grammarly: AI Writing and Grammar Checker App
+          </span>{" "}
+          extension enabled
+        </p>
       </div>
 
       <div id="printDetails" style={{ display: "none" }}>
